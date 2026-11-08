@@ -4,28 +4,28 @@
 
 WHERE filters rows based on a condition.
 
-'sql
+```sql
 SELECT * FROM Products
 WHERE Price < 1000;
-'
+```
 
 ## 2. Comparison Operators
 
 | Operator | Meaning |
-|---       |---|
-| =        | Equal to |
-| >        | Greater than |
-| <        | Less than |
-| >=       | Greater than or equal to |
-| <=       | Less than or equal to |
-| <>       | Not equal to |
+|---|---|
+| = | Equal to |
+| > | Greater than |
+| < | Less than |
+| >= | Greater than or equal to |
+| <= | Less than or equal to |
+| <> | Not equal to |
 
 Example:
 
-'sql
+```sql
 SELECT * FROM Products
 WHERE Category = 'Electronics';
-'
+```
 
 Text values are generally enclosed in single quotes.
 
@@ -33,45 +33,45 @@ Text values are generally enclosed in single quotes.
 
 All conditions must be TRUE.
 
-'sql
+```sql
 SELECT * FROM Products
 WHERE Category = 'Electronics'
 AND Price < 1000;
-'
+```
 
 ## 4. OR
 
 At least one condition must be TRUE.
 
-`sql
+```sql
 SELECT * FROM Products
 WHERE Category = 'Electronics'
 OR Category = 'Furniture';
-'
+```
 
 ## 5. NOT
 
 Reverses a condition.
 
-'sql
+```sql
 SELECT * FROM Products
 WHERE NOT Category = 'Furniture';
-'
+```
 
 Alternatively:
 
-'sql
+```sql
 SELECT * FROM Products
 WHERE Category <> 'Furniture';
-'
+```
 
 ## 6. Combining Conditions
 
-'sql
+```sql
 SELECT * FROM Products
 WHERE Category = 'Electronics'
 AND Price BETWEEN 500 AND 2000;
-'
+```
 
 This retrieves Electronics products priced between 500 and 2000.
 
