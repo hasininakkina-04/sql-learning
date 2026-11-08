@@ -1,28 +1,16 @@
-# SQL Practice Tracker
+# SQL Practice
 
-This folder contains SQL problems solved during my learning journey.
+This folder contains SQL exercises and solutions organized by topic.
 
-## Practice Log
+## Completed Topics
 
-| Topic | Platform | Problems Solved | Status |
-|---|---|---:|---|
-| SELECT and WHERE | Learning exercises | 5+ | Completed |
-| AND, OR, NOT | Learning exercises | 5+ | Completed |
-| ORDER BY and LIMIT | Learning exercises | 5+ | Completed |
-| DISTINCT and NULL | Learning exercises | 5+ | Completed |
-| IN and BETWEEN | Learning exercises | 5+ | Completed |
-| LIKE | Learning exercises | 6 | Completed |
-| AS and Calculations | Learning exercises | 5+ | Completed |
-| Aggregate Functions | Learning exercises | Pending | In Progress |
+1. Basic Queries
+2. Filtering
+3. Sorting and Limiting
+4. DISTINCT and NULL
+5. Advanced Filtering (IN, BETWEEN, LIKE)
+6. Aliases and Calculated Columns
+7. Aggregate Functions
+8. GROUP BY and HAVING
 
-## Future Practice
-
-- GROUP BY and HAVING
-- INNER JOIN and LEFT JOIN
-- Subqueries
-- Common Table Expressions
-- Mixed SQL interview questions
-
-## Learning Rule
-
-I aim to understand the logic behind each query and solve problems independently rather than memorize solutions.
+Each SQL file contains practice queries from the corresponding learning topic.
