@@ -1,15 +1,14 @@
-
 # SQL Learning Journey
 
 Welcome to my SQL learning repository!
 
-This repository documents my journey of learning SQL and PostgreSQL, starting from the fundamentals and progressing towards practical database development.
+This repository documents my journey of learning SQL and PostgreSQL, from database fundamentals to practical SQL querying and database development.
 
 ## Objectives
 
 - Understand relational database concepts.
 - Learn SQL query writing and problem-solving.
-- Practice filtering, aggregation, grouping, and joins.
+- Practice filtering, sorting, aggregation, and joins.
 - Understand database design and relationships.
 - Apply SQL concepts in practical projects.
 
@@ -20,34 +19,33 @@ This repository documents my journey of learning SQL and PostgreSQL, starting fr
 
 ## Topics Covered
 
-| Topic                               | Status |
-
-| Database Fundamentals               | Completed |
-| Tables, Primary Keys & Foreign Keys | Completed |
-| SELECT and FROM                     | Completed |
-| WHERE and Filtering                 | Completed |
-| AND, OR, NOT                        | Completed |
-| ORDER BY and LIMIT                  | Completed |
-| DISTINCT and NULL                   | Completed |
-| IN, BETWEEN and LIKE                | Completed |
-| Aliases and Calculated Columns      | Completed |
-| Aggregate Functions                 | In Progress |
-| GROUP BY and HAVING                 | Upcoming |
-| Joins                               | Upcoming |
-| Subqueries and CTEs                 | Upcoming |
-| Database Design                     | Upcoming |
+| Topic | Status |
+|---|---|
+| Database Fundamentals | Completed |
+| Tables, Primary Keys and Foreign Keys | Completed |
+| SELECT and FROM | Completed |
+| WHERE and Comparison Operators | Completed |
+| AND, OR and NOT | Completed |
+| ORDER BY and LIMIT | Completed |
+| DISTINCT and NULL | Completed |
+| IN, BETWEEN and LIKE | Completed |
+| Aliases and Calculated Columns | Completed |
+| Aggregate Functions | Learning |
 
 ## Repository Structure
 
-- '01-database-fundamentals' – Database concepts and terminology.
-- '02-basic-queries' – Basic SQL queries.
-- '03-filtering' – Filtering and conditions.
-- '04-calculations' – Aliases and calculated columns.
-- '05-aggregate-functions' – Aggregate functions.
-- 'practice' – SQL problem-solving practice.
+- `01-database-fundamentals` – Database concepts.
+- `02-basic-queries` – SELECT and basic queries.
+- `03-filtering` – WHERE and logical operators.
+- `04-sorting-and-limiting` – ORDER BY and LIMIT.
+- `05-distinct-and-null` – Unique values and missing data.
+- `06-advanced-filtering` – IN, BETWEEN and LIKE.
+- `07-aliases-and-calculations` – AS and mathematical expressions.
+- `08-aggregate-functions` – COUNT, SUM, AVG, MIN and MAX.
+- `practice` – SQL practice tracker.
 
 ## Learning Approach
 
-I focus on understanding the logic behind SQL queries, writing queries independently, practicing problems, and applying concepts to real-world scenarios.
+I focus on understanding SQL concepts, writing queries independently, practicing problem-solving, and applying the concepts to real-world projects.
 
-This repository will be updated as I learn and practice more.
+This repository is continuously updated as I learn and practice more.
