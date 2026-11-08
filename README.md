@@ -30,8 +30,8 @@ This repository documents my journey of learning SQL and PostgreSQL, from databa
 | DISTINCT and NULL | Completed |
 | IN, BETWEEN and LIKE | Completed |
 | Aliases and Calculated Columns | Completed |
-| Aggregate Functions | Learning |
-
+| Aggregate Functions | Completed |
+| Group BY and Having | Completed |
 ## Repository Structure
 
 - `01-database-fundamentals` – Database concepts.
@@ -42,6 +42,7 @@ This repository documents my journey of learning SQL and PostgreSQL, from databa
 - `06-advanced-filtering` – IN, BETWEEN and LIKE.
 - `07-aliases-and-calculations` – AS and mathematical expressions.
 - `08-aggregate-functions` – COUNT, SUM, AVG, MIN and MAX.
+- `09-groupby-having` - GROUP BY, HAVING .
 - `practice` – SQL practice tracker.
 
 ## Learning Approach
