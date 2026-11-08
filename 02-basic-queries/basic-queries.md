@@ -8,9 +8,9 @@ A query is a request or command given to a database to perform an operation or r
 
 SELECT is used to choose the columns we want to retrieve.
 
-'sql
+```sql
 SELECT Name FROM Students;
-'
+```
 
 This retrieves the Name column from Students.
 
@@ -18,32 +18,32 @@ This retrieves the Name column from Students.
 
 FROM specifies the table from which we want to retrieve data.
 
-'sql
+```sql
 SELECT Name FROM Students;
-'
+```
 
 ## 4. SELECT *
 
 The asterisk (*) retrieves all columns.
 
-'sql
+```sql
 SELECT * FROM Students;
-'
+```
 
 ## 5. Selecting Multiple Columns
 
 Use commas to select multiple columns.
 
-'sql
+```sql
 SELECT Name, Age FROM Students;
-'
+```
 
 ## 6. Basic Query Structure
 
-'sql
+```sql
 SELECT column_name
 FROM table_name;
-
+```
 
 Remember:
 
@@ -52,9 +52,9 @@ Remember:
 
 ## 7. Example
 
-'sql
+```sql
 SELECT Product_Name, Price
 FROM Products;
-'
+```
 
 This retrieves product names and prices from the Products table.
